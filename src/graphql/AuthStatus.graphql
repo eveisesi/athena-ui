@@ -1,0 +1,7 @@
+subscription($state: String!) {
+    authStatus(state: $state) {
+        status
+        state
+        token
+    }
+}

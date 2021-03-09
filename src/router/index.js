@@ -12,11 +12,10 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '',
-    name: "LoginLayout",
     component: LoginLayout,
     children: [
       {
-        path: "/login",
+        path: "/",
         name: "Login",
         component: Login,
       }

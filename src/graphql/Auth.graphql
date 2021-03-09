@@ -1,0 +1,8 @@
+query($scopes: [String!]) {
+    auth {
+        state
+        status
+        token
+        url(scopes: $scopes)
+    }
+}
